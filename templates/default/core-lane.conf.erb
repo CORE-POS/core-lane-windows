@@ -1,0 +1,7 @@
+# Apache config for core-lane
+<IfModule alias_module>
+  Alias /nf "<%= node['core-lane']['windows']['dir'] %>/pos/is4c-nf/"
+  <Directory "<%= node['core-lane']['windows']['dir'] %>/pos/is4c-nf/">
+    Require all granted
+  </Directory>
+</IfModule>
