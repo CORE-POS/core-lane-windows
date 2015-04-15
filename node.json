@@ -1,0 +1,13 @@
+{
+  "run_list": [
+    "recipe[windows]",
+    "recipe[git]",
+    "recipe[vcruntime::vc9]",
+    "recipe[mysql-windows]",
+    "recipe[apache2-windows]",
+    "recipe[chef-php-windows]",
+    "recipe[ms_dotnet45]",
+    "recipe[firefox]",
+    "recipe[core-lane-windows]"
+  ]
+}
