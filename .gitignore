@@ -19,4 +19,4 @@ Gemfile.lock
 bin/*
 .bundle/*
 
-
+solo-cache
